@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="#cfd8dc">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/textRiwayatKonsultasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="PROFIL"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+    <ImageView
+        android:id="@+id/tampilfotoprofil"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary" />
+
+
+        <TableLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:background="#FFFF"></TableLayout>
+
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:background="#FFFF">
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="#FFFF">
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:background="#FFFF">
+    </TableLayout>
+
+
+        <TextView
+            android:id="@+id/namaUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp"
+            android:textColor="#212121"
+            android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tglLahirUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textColor="#212121"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/genderUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:textColor="#212121"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/pekerjaanUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:textColor="#212121"
+        android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btnUbahProfil"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="510dp"
+            android:background="@color/colorPrimary"
+            android:text="UBAH"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

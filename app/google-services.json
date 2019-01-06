@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "33840355812",
+    "firebase_url": "https://phyco-database.firebaseio.com",
+    "project_id": "phyco-database",
+    "storage_bucket": "phyco-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33840355812:android:0f1b20fabcad7c81",
+        "android_client_info": {
+          "package_name": "gmmre.phyco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33840355812-bcnru5nl7j105nl9g24kgute6n2lpuj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gmmre.phyco",
+            "certificate_hash": "dc06cc4f5f9905576a61d9ba123574c3b64b4dec"
+          }
+        },
+        {
+          "client_id": "33840355812-fv3klo3jhemlchjv6n4dehglspjn8v78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkydIZKaOUVy9PJ0I5N_KQRVCygid2Zz4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33840355812-fv3klo3jhemlchjv6n4dehglspjn8v78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

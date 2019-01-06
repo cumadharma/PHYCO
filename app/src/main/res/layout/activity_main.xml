@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/logoLogin"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/text_phyco" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp">
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFF"
+        android:textColorHint="#FFFF"
+        android:backgroundTint="#FFFF"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:id="@+id/inputKatasandi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/kata_sandi"
+        android:inputType="textPassword"
+        android:textColor="#FFFF"
+        android:textColorHint="#FFFF"
+        android:backgroundTint="#FFFF"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/btnMasuk"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/oren"
+        android:text="@string/masuk"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/oren" />
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@color/oren"
+        android:onClick="btnDaftar"
+        android:text="BUAT AKUN"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/oren" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahPasienActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/textRiwayatKonsultasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="DATA PASIEN"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+    <ImageView
+        android:id="@+id/fotoRegisterUser"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:srcCompat="@drawable/userphoto" />
+
+    <EditText
+        android:id="@+id/inputNamaPasien"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="230dp"
+        android:ems="10"
+        android:hint="Nama Pasien"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputUsiaPasien"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:hint="Usia Pasien"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textJenisKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputNamaPasien"
+        android:layout_alignLeft="@id/textTanggalLahir"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="330dp"
+        android:ems="10"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:text="@string/textJenisKelamin" />
+
+    <RadioGroup
+        android:id="@+id/rb_kelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="360dp"
+        android:theme="@style/BlueCheck">
+
+        <RadioButton
+            android:id="@+id/rbPria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rbPria"
+            android:textColor="#212121"/>
+
+        <RadioButton
+            android:id="@+id/rbWanita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rbWanita"
+            android:textColor="#212121"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/inputPerkejaanPasien"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:hint="Pekerjaan Pasien"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/btnTambahPasien"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/textTambahkan"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/colorPrimary" />
+    </RelativeLayout>
+
+</RelativeLayout>

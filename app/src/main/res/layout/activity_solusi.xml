@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SolusiActivity"
+    android:background="#e0e0e0">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/judulSolusi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/judulSolusi"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="50dp"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="600dp"
+            android:layout_centerHorizontal="true"
+            android:background="#fff"/>
+        <TextView
+            android:id="@+id/tvSolusi"
+            android:layout_width="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#212121"
+            android:textSize="14sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+        <Button
+            android:id="@+id/btnSelesaiSolusi"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/backgroundcolor"
+            android:onClick="selesaiSolusi"
+            android:text="@string/textSelesaiSolusi"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:backgroundTint="@color/backgroundcolor" />
+
+    <TextView
+        android:id="@+id/link_konsultasikankembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/textKonsultasiLagi"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+        android:onClick="konsultasikanKembali"/>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

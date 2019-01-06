@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/jdlPermasalahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="BUAT AKUN"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/fotoRegisterUser"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:cropToPadding="true"
+            app:srcCompat="@drawable/userphoto" />
+
+        <EditText
+            android:id="@+id/inputNama"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:hint="@string/nama"
+            android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/inputKatasandi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="@string/kata_sandi"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textTanggalLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputNama"
+        android:layout_alignLeft="@id/inputNama"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:text="@string/textTanggalLahir" />
+
+    <TextView
+        android:id="@+id/tanggalLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputNama"
+        android:layout_alignLeft="@id/inputNama"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="350dp"
+        android:ems="7"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/pilihTanggal"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textJenisKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textTanggalLahir"
+        android:layout_alignLeft="@id/textTanggalLahir"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="390dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:text="@string/textJenisKelamin"/>
+
+    <RadioGroup
+        android:id="@+id/rb_kelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="420dp"
+        android:theme="@style/BlueCheck">
+
+        <RadioButton
+            android:id="@+id/rbPria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbPria"/>
+
+        <RadioButton
+            android:id="@+id/rbWanita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbWanita"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/inputPerkejaan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:ems="10"
+        android:hint="@string/textPekerjaan"
+        android:inputType="text" />
+
+
+
+
+    <Button
+        android:id="@+id/btnDaftarDone"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/inputNama"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="520dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/daftar"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

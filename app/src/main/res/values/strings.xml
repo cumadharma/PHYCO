@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">PHYCO</string>
+
+    <string name="email">Email</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="masuk">MASUK</string>
+    <string name="daftar">DAFTAR</string>
+
+    <string name="nama">Nama</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="pria">Pria</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="unggah_foto">Unggah Foto</string>
+    <string name="usia">Usia</string>
+    <string name="textJenisKelamin">Jenis Kelamin</string>
+    <string name="textTanggalLahir">Tanggal Lahir</string>
+    <string name="rbPria">Pria</string>
+    <string name="rbWanita">Wanita</string>
+    <string name="textPekerjaan">Pekerjaan</string>
+    <string name="textUnggahFoto">Unggah Foto</string>
+    <string name="textBtnBrowse">Browse</string>
+    <string name="pilihTanggal">Pilih Tanggal Lahir</string>
+
+    <string name="namaProfil">Anfika Sigma P.</string>
+    <string name="tanggalLahirProfil">10 Desember 1990</string>
+    <string name="jenisKelaminProfil">Wanita</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="pekerjaanProfil">Mahasiswa</string>
+
+    <string name="judulSolusi">SOLUSI</string>
+    <string name="textUbahSolusi">UBAH</string>
+    <string name="textSelesaiSolusi">SELESAI</string>
+
+    <string name="textKonsultasiLagi">Konsultasikan permasalahan Anda yang lain</string>
+    <string name="textKonfirmasi">Konfirmasi pilihan anda</string>
+    <string name="textBtnKonfirmasi">KONFIRMASI</string>
+
+    <string name="textJudulUbahSolusi">UBAH SOLUSI</string>
+    <string name="textUbahSolusiSelesai">SELESAI</string>
+    <string name="textPilihPermasalahan">Pilih jenis permasalahan anda</string>
+    <string name="textSelanjutnya">SELANJUTNYA</string>
+    <string name="usiaPasien">Usia</string>
+    <string name="textTambahkan">TAMBAHKAN</string>
+    <string name="textRiwayatKonsultasi">Riwayat Konsultasi</string>
+    <string name="namaPasien">Nama Pasien</string>
+    <string name="pekerjaanPasien">Pekerjaan Pasien</string>
+    <string name="umur_pasien">Umur Pasien</string>
+    <string name="textTglKonsultasi">Tanggal Konsultasi</string>
+    <string name="previewRiwayatKonsultasi">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="judulRiwayat">RIWAYAT KONSULTASI</string>
+    <string name="textNamaPasien">Nama Pasien</string>
+    <string name="textPekerjaanPasien">Pekerjaan Pasien</string>
+    <string name="textUmurPasien">Umur Pasien</string>
+    <string name="listPasien">LIST PASIEN</string>
+    <string name="btnTambahPasien">TAMBAH</string>
+    <string name="namaUser">Nama</string>
+
+    <string name="tvNama">Nama :</string>
+    <string name="tvPekerjaan">Pekerjaan :</string>
+    <string name="tvUsia">Usia :</string>
+    <string name="checkDetail">Detail</string>
+</resources>
